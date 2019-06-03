@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="head" >
+		<h2>
+			<center>
+			<button class="logo" >i</button>Compare
+			</center>
+		</h2>
+		<hr>
+	</div>
+
+	<form action="app.php" method="post"  >
+		<label class="label">What would you like to compare<sup class="text-danger">*</sup></label>
+		<br><br>
+		<input type="text" required name="item1"  class="option opt1" placeholder="Bitcoin" >
+		<input type="text" required name="item2"  class="option opt2" placeholder="Ethereum"  >
+		<input type="text" required name="item3"  class="option opt3" placeholder="Luno"  >
+	<!--	<button class="add-option" >+</button> -->
+		<br><br>
+		<label class="label" >Location Range</label>
+		<br><br>
+		
+		<select>
+			<option>Nigeria</option>
+			<option>Kenya</option>
+			<option>Uganda</option>
+		</select>
+		
+		<br><br>
+		<label class="label" >Maximum tweet to compare</label>
+		<br><br>
+		<em class="radio" >
+			<input type="radio" class="opt1" name="a" >100
+		</em>
+		<em class="radio" >
+			<input type="radio" class="opt1" name="a" >200
+		</em>
+		<br><br>
+		<em class="radio" >
+			<input type="radio" class="opt1" name="a" >300
+		</em>
+		<em class="radio" >
+			<input type="radio" class="opt1" name="a" >400
+		</em>
+		<em class="radio" >
+			<input type="radio" class="opt1" name="a" >500
+		</em>
+		<br>
+		<br>
+		<br>
+		<button class="btn" type="submit" name="submit" >Compare &hearts;</button>
+	</form>
+</body>
+</html>
