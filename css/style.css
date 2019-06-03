@@ -1,0 +1,101 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	background: #25A3FF;
+	color:#fff;
+}
+.logo{
+	border:0;
+	outline:0;
+	color:#5356ad;
+	font-weight:bolder;
+	width:30px;
+	height:30px;
+	font-size:17px;
+	background:#ffcc00;
+	padding:10px;
+	border-radius:50px;
+}
+hr{
+	border:	2px solid #ffcc00;
+}
+
+::-webkit-input-placeholder {
+/* Chrome/Opera/Safari */
+  color: #748194;
+  text-align:center;
+  font-size:16px;
+  text-transform:uppercase;
+  font-family: 'Montserrat', sans-serif;
+}
+::-moz-placeholder {
+/* Firefox 19+ */
+color: #748194;
+text-align:center;
+}
+
+.text-danger{
+color:red;
+font-weight:normal;
+}
+.option{
+	border:0;
+	outline:0;
+	width:87px;
+	height:35px;
+	margin:5px;
+	text-align:center;
+	border-radius:3px;
+	background:#eee;
+	font-family: 'Montserrat', sans-serif;
+}
+
+@keyframes borda{
+10% {box-shadow:0 0 4px #000;}
+20% {box-shadow:0 0 6px #000;}
+30% {box-shadow:0 0 8px #000;}
+}
+.add-option{
+	animation-name:a;
+	animation-duration:4s;
+	animation-iteration-count: infinite;
+	border:0;
+	box-shadow:0 0 2px #000;
+	outline:0;
+	background:#eee;
+	color:#000;
+	width:30px;
+	height:30px;
+	font-weight:bolder;
+	border-radius:50px;
+}
+.label{
+	font-weight:bolder;
+}
+.radio {
+	background:#fff;
+	color:#5356ad;
+	padding:9px;
+	margin:3px;
+}
+.btn {
+	background: #ffcc00;
+	color:#fff;
+	border:0;
+	outline:0;
+	width:140px;
+	height:30px;
+	font-size:20px;
+	text-align:;
+	font-weight:bolder;
+	border-radius:4px;
+	font-family: 'Montserrat', sans-serif;
+}
+select {
+	border:0;
+	font-size:15px;
+	background:#fff;
+	color:#5356ad;
+	text-transform:uppercase;
+	padding:9px;
+	font-family: 'Montserrat', sans-serif;
+}
